@@ -3,3 +3,55 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property img {
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+}
+
+#featured-property {
+  width: 900px;
+  margin: auto;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#details {
+  display: flex; /* Optional: It's recommended to use flexbox for modern layout */
+}
+
+.detail {
+  float: left;
+}
+
+#details div {
+  background-color: #f0f0f0;
+  text-align: center;
+  width: 25%;
+}
+
